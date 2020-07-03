@@ -1,8 +1,8 @@
-package com.nick.wood.event_bus.events;
+package com.nick.wood.game_engine.event_bus.events;
 
-import com.nick.wood.event_bus.event_data.PickingEventData;
-import com.nick.wood.event_bus.event_types.PickingEventType;
-import com.nick.wood.event_bus.interfaces.Event;
+import com.nick.wood.game_engine.event_bus.event_data.PickingEventData;
+import com.nick.wood.game_engine.event_bus.event_types.PickingEventType;
+import com.nick.wood.game_engine.event_bus.interfaces.Event;
 
 public class PickingEvent implements Event<PickingEventData> {
 

@@ -1,4 +1,4 @@
-package com.nick.wood.event_bus.interfaces;
+package com.nick.wood.game_engine.event_bus.interfaces;
 
 public interface Subscribable {
 

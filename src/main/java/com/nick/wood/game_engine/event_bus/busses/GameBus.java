@@ -1,6 +1,8 @@
-package com.nick.wood.event_bus.busses;
+package com.nick.wood.game_engine.event_bus.busses;
 
-import com.nick.wood.event_bus.interfaces.*;
+import com.nick.wood.game_engine.event_bus.interfaces.Bus;
+import com.nick.wood.game_engine.event_bus.interfaces.Event;
+import com.nick.wood.game_engine.event_bus.interfaces.Subscribable;
 
 import java.util.ArrayList;
 import java.util.List;

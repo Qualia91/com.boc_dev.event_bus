@@ -1,8 +1,9 @@
-package com.nick.wood.event_bus.events;
+package com.nick.wood.game_engine.event_bus.events;
 
-import com.nick.wood.event_bus.interfaces.Event;
-import com.nick.wood.event_bus.interfaces.EventData;
-import com.nick.wood.event_bus.event_types.ControlEventType;
+
+import com.nick.wood.game_engine.event_bus.event_types.ControlEventType;
+import com.nick.wood.game_engine.event_bus.interfaces.Event;
+import com.nick.wood.game_engine.event_bus.interfaces.EventData;
 
 public class ControlEvent implements Event<EventData> {
 
