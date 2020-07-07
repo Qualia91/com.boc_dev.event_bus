@@ -1,4 +1,4 @@
-package com.nick.wood.game_engine.event_bus;
+package com.nick.wood.game_engine.event_bus.subscribables;
 
 import com.nick.wood.game_engine.event_bus.event_types.ManagementEventType;
 import com.nick.wood.game_engine.event_bus.events.ManagementEvent;

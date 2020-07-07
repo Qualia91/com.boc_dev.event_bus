@@ -10,7 +10,7 @@ import java.util.UUID;
 public class GameObjectEvent implements Event<GameObjectEventData> {
 
 	private final GameObjectEventData gameObjectEventData;
-	private GameObjectEventType gameObjectEventType;
+	private final GameObjectEventType gameObjectEventType;
 
 	public GameObjectEvent(GameObjectEventData gameObjectEventData, GameObjectEventType gameObjectEventType) {
 		this.gameObjectEventData = gameObjectEventData;
@@ -23,7 +23,7 @@ public class GameObjectEvent implements Event<GameObjectEventData> {
 	}
 
 	@Override
-	public EventType getType() {
+	public GameObjectEventType getType() {
 		return gameObjectEventType;
 	}
 }
