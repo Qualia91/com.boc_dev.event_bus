@@ -13,14 +13,14 @@ import java.util.concurrent.ArrayBlockingQueue;
 public class DebugSubscribable implements Subscribable, Runnable {
 
 	private final Set<Class<?>> supports = new HashSet<>();
-	private final ArrayBlockingQueue<Event<?>> eventQueue = new ArrayBlockingQueue<>(100);
+	private final ArrayBlockingQueue<Event<?>> eventQueue = new ArrayBlockingQueue<>(10);
 	private final ArrayList<Event<?>> drainToList = new ArrayList<>();
 
 	private boolean shutdown = false;
 
 	@Override
 	public void handle(Event<?> event) {
-		eventQueue.add(event);
+		eventQueue.offer(event);
 	}
 
 	@Override
