@@ -4,6 +4,8 @@ import java.util.UUID;
 
 public class PickingResponseEventData implements PickingEventData {
 
+	public static final UUID NO_DATA_SELECTED = UUID.randomUUID();
+
 	private final UUID uuid;
 	private final String sceneLayerName;
 
